@@ -10,12 +10,12 @@ const CategoryForm = ({ addCategory }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="category-create-form">
+    <form className="category-create-form" onSubmit={handleSubmit}>
       <input
         type="text"
         className="input"
-        value={value}
         placeholder="Create new category"
+        value={value}
         onChange={(e) => setValue(e.target.value)}
       ></input>
       <button>Create</button>

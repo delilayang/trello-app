@@ -4,17 +4,10 @@ body {
 
 .app {
   padding: 30px;
-  // height: 100vh;
+  max-height: 100vh;
   display: flex;
   justify-content: space-around;
 }
-
-// .todo-list {
-//   background: #e8e8e8;
-//   border-radius: 4px;
-//   padding: 5px;
-
-// }
 
 .category {
   background: #fff;
@@ -24,8 +17,7 @@ body {
   margin-bottom: 6px;
   border-radius: 3px;
   display: block;
-  // align-items: center;
-  // justify-content: space-between;
+  height: 100%;
   width: 250px;
   position: relative;
 
@@ -36,7 +28,6 @@ body {
 }
 
 .input {
-  width: 100%;
   box-sizing: border-box;
   border: 0;
   border-radius: 4px;
@@ -55,13 +46,12 @@ button {
 }
 
 .category-title,
-.category-item {
+.category-list-item {
   width: 100%;
 }
 
 .category-title,
-.category-create-form,
-.category-item {
+.category-create-form {
   display: flex;
 }
 
